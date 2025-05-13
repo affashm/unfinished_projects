@@ -1,0 +1,409 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    background: black;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Start hero section */
+.img-option {
+    width: 363px;
+    height: 208px;
+    position: absolute;
+    top: 106px;
+    left: 957px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.img-option-2 {
+    position: absolute;
+    width: 363px;
+    height: 208px;
+    top: 324px;
+    left: 957px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.img-option-3 {
+    position: absolute;
+    width: 363px;
+    height: 208px;
+    top: 542px;
+    left: 957px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.img-option-4 {
+    position: absolute;
+    width: 365px;
+    height: 208px;
+    top: 760px;
+    left: 956px;
+    gap: 0px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+}
+
+.img-option-5 {
+    position: absolute;
+    width: 365px;
+    height: 208px;
+    top: 978px;
+    left: 956px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.img-option-6 {
+    position: absolute;
+    width: 363px;
+    height: 208px;
+    top: 1196px;
+    left: 957px;
+    gap: 0px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+}
+
+.img-option-7 {
+    position: absolute;
+    width: 363px;
+    height: 208px;
+    top: 1414px;
+    left: 957px;
+    gap: 0px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+    margin-right: 25px;
+}
+
+.dash-info {
+    position: absolute;
+    width: 611px;
+    height: 395px;
+    top: 131px;
+    left: 230px;
+    gap: 0px;
+    opacity: 0px;
+    z-index: -1;
+}
+
+.typo{
+    position: absolute;
+    width: 79px;
+    height: 28px;
+    top: 157px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 12px;
+    text-align: center;
+    color: #FFFFFF;
+   
+}
+
+.award {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: 205px;
+    gap: 0px;
+    
+}
+
+.award-2 {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: 270px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.award-3 {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: 334px;
+    gap: 0px;
+    opacity: 40%;
+}
+
+.award-4 {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: 390px;
+    gap: 0px;
+    opacity: 40%;
+}
+
+.award-5 {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: 449px;
+    gap: 0px;
+    opacity: 40%;
+}
+
+.section-box {
+    position: absolute;
+    width: 904px;
+    height: 448px;
+    top: 120px;
+    left: 39px;
+    gap: 0px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+    background-color: #1B1B1B;
+    z-index: -1;
+}
+
+.card-2 {
+    position: absolute;
+    width: 177px;
+    height: 194px;
+    top: 131px;
+    left: 230px;
+     gap: 0px;
+     border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+    background: #EAEAEA52;
+    backdrop-filter: blur(20px)
+}
+
+.heading {
+    position: absolute;
+    width: 79px;
+    height: 28px;
+    bottom: 150px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+.para {
+    width: 79px;
+    height: 34px;
+    bottom: 120px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: -0.08em;
+    text-align: left;
+}
+
+.heading-2 {
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    bottom: 100px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 12px;
+    text-align: left;
+}
+
+.para-2 {
+    position: absolute;
+    width: 93px;
+    height: 34px;
+    bottom: 70px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: -0.08em;
+    text-align: left;
+}
+
+.heading-3 {
+    position: absolute;
+    width: 120px;
+    height: 14px;
+    bottom: 50px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 12px;
+    text-align: left;
+}
+
+.para-3 {
+    position: absolute;
+    width: 107px;
+    height: 14px;
+    bottom: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: -0.08em;
+    text-align: left;
+}
+
+.bg-img{
+    background-image: url("../img/bg1.jpg") repeat 0 0;
+}
