@@ -1,0 +1,87 @@
+body {
+  background-color: white;
+}
+
+#content-right {
+  margin-top: 70px;
+}
+
+.section-content {
+  margin-top: 250px;
+}
+
+.content-right {
+  float: left;
+}
+
+#call-now{
+  margin-top: 45px;
+}
+
+#call-now,
+#col-p{
+  color: white
+}
+
+#col-p{
+  margin-top: 100px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.padding {
+   padding: 2em;
+   background:  #FF0;
+   margin-top: 25px;
+   height: 100%;
+}
+
+.form-styles input[type="text"], .form-styles input[type="email"], .form-styles input[type="password"], select {
+    outline: none;
+    font-size: 16px;
+    border: none;
+    color: #666;
+    letter-spacing: 0.5px;
+    width: 100%;
+    box-sizing: border-box;
+	text-transform: capitalize;
+    background: #fff;
+}
+
+#banner{
+  position:relative;
+  color: #fff;
+  background: url("../img/hero.jpg") no-repeat 0 0;
+  background-size:cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  -moz-background-size: cover;
+  min-height: 468px;
+  min-width: 1200px;
+  border: 2px solid #000;
+}
+
+.yellow {
+  color: #FF0;
+  font-weight: bolder;
+  font-size: 70px;
+}
+
+#bgyellow {
+background: #ffc702;
+color: white;
+}
+
+img{
+  max-width: 100%;
+}
+
+#taxi {
+  height: 250px;
+  border-right: 1px solid white;
+}
+
+#bgyellow2 {
+  background: #ffcd13;
+}
